@@ -1,0 +1,10 @@
+[Unit]
+Description=a tool randomizing hostname at each boot
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/hostnamespoof/spoof_hostname.sh
+
+[Install]
+WantedBy=multi-user.target
