@@ -19,6 +19,10 @@ In order to hide any information that could reveal the identity of users in a LA
 
 - docker_container_names.go : The exact name generator Docker uses for container names
 
+![docker_names_as_hostnames](https://github.com/red0xff/hostnamespoof/raw/master/screenshots/banner.png)
+
+Isn't it cool to get new docker container names as hostnames at each boot?
+
 Contributions are welcome
 
 # What are valid hostnames
